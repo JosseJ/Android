@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/UTPLFragment">
+
+    <fragment
+        android:id="@+id/dandroidFragment"
+        android:name="com.desarrollo.mytarea.ui.home.Informacion.DandroidFragment"
+        android:label="fragment_dandroid"
+        tools:layout="@layout/fragment_informacion" />
+    <fragment
+        android:id="@+id/UTPLFragment"
+        android:name="com.desarrollo.mytarea.ui.home.utpl.UTPLFragment"
+        android:label="fragment_u_t_p_l"
+        tools:layout="@layout/fragment_u_t_p_l" />
+    <fragment
+        android:id="@+id/tecnologiasFragment"
+        android:name="com.desarrollo.mytarea.ui.home.Tecnologias.TecnologiasFragment"
+        android:label="fragment_tecnologias"
+        tools:layout="@layout/fragment_tecnologias" />
+    <navigation android:id="@+id/navigation" />
+</navigation>

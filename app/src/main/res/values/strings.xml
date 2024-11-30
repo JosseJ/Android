@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Tarea</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--       BottomBar-->
+
+    <string name="UTPL">UTPL</string>
+    <string name="iformacion">Información</string>
+    <string name="tecnologias">Tecnologías</string>
+
+</resources>
